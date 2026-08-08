@@ -48,7 +48,7 @@ Alpine.data('stats', () => ({
         const params = new URLSearchParams(window.location.search)
         this.title = params.get('title') ?? this.title;
         this.name = params.get('name') ?? this.name;
-        this.level = 'Lv ' + params.get('level') ?? this.level;
+        this.level = params.get('level') !== null ? `Lv${params.get('level')}` : this.level;
         this.mode = params.get('mode') === 'dark' ? 'dark' : 'light';
 
         const today = new Date().toISOString().split('T')[0] // YYYY-MM-DD, date only

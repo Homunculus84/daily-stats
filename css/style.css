@@ -257,7 +257,7 @@ h3 {
     bottom: 0;
     left: 0;
     background-color: var(--clr-light);
-    transform: translateX(-1px);
+    /*transform: translateX(-1px);*/
 }
 
 .stat__meter-divider:nth-of-type(1) { left: 20%; }

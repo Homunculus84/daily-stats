@@ -2,16 +2,16 @@
 
 @font-face {
   font-family: 'Eudaemon';
-  src: url('/fonts/eudaemon-regular-webfont.woff2') format('woff2'),
-       url('/fonts/eudaemon-regular-webfont.woff') format('woff');
+  src: url('../fonts/eudaemon-regular-webfont.woff2') format('woff2'),
+       url('../fonts/eudaemon-regular-webfont.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Eudaemon';
-  src: url('/fonts/eudaemon-bold-webfont.woff2') format('woff2'),
-       url('/fonts/eudaemon-bold-webfont.woff') format('woff');
+  src: url('../fonts/eudaemon-bold-webfont.woff2') format('woff2'),
+       url('../fonts/eudaemon-bold-webfont.woff') format('woff');
   font-weight: 700;
   font-style: normal;
 }

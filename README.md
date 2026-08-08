@@ -20,5 +20,5 @@ By passing any of the following query parameters in the URL, you can customize y
 **Example:**
 
 ```
-https://github.com/Homunculus84/daily-stats/?title=Profile&name=Sir+Lancelot&level=90&mode=dark
+https://homunculus84.github.io/daily-stats/?title=Profile&name=Sir+Lancelot&level=90&mode=dark
 ```

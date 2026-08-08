@@ -1,0 +1,830 @@
+{
+  "classes": [
+    {
+      "id": "procrastination-warlock",
+      "name": "Procrastination Warlock"
+    },
+    {
+      "id": "keyboard-warrior",
+      "name": "Keyboard Warrior"
+    },
+    {
+      "id": "friendzone-season-pass-holder",
+      "name": "Friendzone Season Pass Holder"
+    },
+    {
+      "id": "bruhzerker",
+      "name": "Bruhzerker"
+    },
+    {
+      "id": "snack-paladin",
+      "name": "Snack Paladin"
+    },
+    {
+      "id": "wifi-druid",
+      "name": "Wi-Fi Druid"
+    },
+    {
+      "id": "inbox-necromancer",
+      "name": "Inbox Necromancer"
+    },
+    {
+      "id": "gym-guild-associate",
+      "name": "Gym Guild Associate"
+    },
+    {
+      "id": "journeyman-ghoster",
+      "name": "Journeyman Ghoster"
+    },
+    {
+      "id": "caffeine-sorcerer",
+      "name": "Caffeine Sorcerer"
+    },
+    {
+      "id": "online-shopping-rogue",
+      "name": "Online Shopping Rogue"
+    },
+    {
+      "id": "doomscroll-druid",
+      "name": "Doomscroll Druid"
+    },
+    {
+      "id": "student-loan-lich",
+      "name": "Student Loan Lich"
+    },
+    {
+      "id": "cringe-lord",
+      "name": "Cringe Lord"
+    },
+    {
+      "id": "vibe-inquisitor",
+      "name": "Vibe Inquisitor"
+    },
+    {
+      "id": "snooze-button-summoner",
+      "name": "Snooze Button Summoner"
+    },
+    {
+      "id": "existential-crisis-final-boss",
+      "name": "Existential Crisis Final Boss"
+    },
+    {
+      "id": "emotional-damage-shaman",
+      "name": "Emotional Damage Shaman"
+    },
+    {
+      "id": "self-checkout-wizard",
+      "name": "Self-Checkout Wizard"
+    },
+    {
+      "id": "touch-grass-templar",
+      "name": "Touch Grass Templar"
+    },
+    {
+      "id": "simp-slayer",
+      "name": "Simp Slayer"
+    },
+    {
+      "id": "simpaladin",
+      "name": "Simpaladin"
+    },
+    {
+      "id": "bardcore-enjoyer",
+      "name": "Bardcore Enjoyer"
+    },
+    {
+      "id": "typo-alchemist",
+      "name": "Typo Alchemist"
+    },
+    {
+      "id": "carb-cleric",
+      "name": "Carb Cleric"
+    },
+    {
+      "id": "fridge-gremlin",
+      "name": "Fridge Gremlin"
+    },
+    {
+      "id": "spamurai",
+      "name": "Spamurai"
+    },
+    {
+      "id": "browser-tab-multiplier",
+      "name": "Browser Tab Multiplier"
+    },
+    {
+      "id": "keeper-of-receipts",
+      "name": "Keeper of Receipts"
+    },
+    {
+      "id": "elite-yapper",
+      "name": "Elite Yapper"
+    }
+  ],
+  "quests": [
+    {
+      "id": "trial-of-the-missing-sock",
+      "title": "The Trial of the Missing Sock",
+      "description": "Search the laundry realm for its vanished twin before the dryer claims another innocent"
+    },
+    {
+      "id": "overflowing-inbox-dungeon",
+      "title": "The Overflowing Inbox Dungeon",
+      "description": "Battle unread messages, defeat newsletter goblins, and recover the sacred scroll of zero notifications"
+    },
+    {
+      "id": "curse-of-the-low-battery",
+      "title": "The Curse of the Low Battery",
+      "description": "Find a charging shrine before your enchanted rectangle reaches the dreaded one percent"
+    },
+    {
+      "id": "the-grocery-gauntlet",
+      "title": "The Grocery Gauntlet",
+      "description": "Navigate crowded aisles, fight rogue shopping carts, and secure the just enough loot to survive until tomorrow"
+    },
+    {
+      "id": "siege-of-the-jar-lid",
+      "title": "The Siege of the Jar Lid",
+      "description": "Summon legendary strength to conquer the stubborn lid guarding your promised midnight snack"
+    },
+    {
+      "id": "the-forgotten-password-crypt",
+      "title": "The Forgotten Password Crypt",
+      "description": "Descend through dozens of security levels, recover the ancient confirmation codes, and reclaim your lost account"
+    },
+    {
+      "id": "the-vanishing-parking-spot",
+      "title": "The Vanishing Parking Spot",
+      "description": "Wander the realm, outwit rival chariots, and claim the blessed parking spot before the time runs out"
+    },
+    {
+      "id": "the-laundry-mountain",
+      "title": "Ascent to Laundry Mountain",
+      "description": "Climb the textile peak, defeat dirty beasts, and restore order to the wardrobe"
+    },
+    {
+      "id": "the-coffee-of-resurrection",
+      "title": "The Coffee of Resurrection",
+      "description": "Brew the sacred potion before consciousness fades and productivity becomes permanently unavailable"
+    },
+    {
+      "id": "the-dungeon-of-forgotten-leftovers",
+      "title": "The Dungeon of Forgotten Leftovers",
+      "description": "Investigate suspicious leftovers and identify which container holds treasure or harbors a hungry mimic"
+    },
+    {
+      "id": "the-tupperware-vault",
+      "title": "The Tupperware Vault",
+      "description": "Match mysterious containers with their lids before the cabinet comes alive"
+    },
+    {
+      "id": "the-lost-keyside-legend",
+      "title": "Find the Forgotten Keys",
+      "description": "Retrace yesterday's footsteps and interrogate every pocket until the legendary keys reveal themselves"
+    },
+    {
+      "id": "the-mirror-of-judgment",
+      "title": "The Mirror of Judgment",
+      "description": "Face your morning reflection and survive its merciless critical hit before breakfast"
+    },
+    {
+      "id": "the-tabs-of-doom",
+      "title": "The Tabs of Doom",
+      "description": "Close the ancient tabs one by one, lest their combined memory usage destroy the realm"
+    },
+    {
+      "id": "the-curse-of-the-empty-roll",
+      "title": "The Curse of the Empty Roll",
+      "description": "Face the empty roll and accept its ancient truth: toilet paper does not respawn by itself"
+    },
+    {
+      "id": "the-early-awakening",
+      "title": "The Early Awakening",
+      "description": "Survive the first hour after the alarm and reach your guild without aggroing the mobs on the way"
+    },
+    {
+      "id": "the-boss-chamber",
+      "title": "The Boss Chamber",
+      "description": "Enter the office boss's chamber, survive the critical questions, and emerge with your dignity intact"
+    },
+    {
+      "id": "the-council-of-endless-meetings",
+      "title": "The Council of Endless Meetings",
+      "description": "Survive the gathering of the council, where every agenda summons another meeting before you can escape"
+    },
+    {
+      "id": "the-trial-of-the-diet",
+      "title": "The Trial of the Snacks",
+      "description": "Resist the forbidden snacks, ignore their seductive powers, and survive another day without depleting the rations"
+    },
+    {
+      "id": "the-tax-collector",
+      "title": "The Tax Collector",
+      "description": "Gather your gold, decipher the ancient scrolls, and appease the realm before the deadline arrives"
+    },
+    {
+      "id": "journey-to-the-fuel-shrine",
+      "title": "Journey to the Fuel Shrine",
+      "description": "Reach the closest roadside shrine, fulfill the demands of the fuel gods, and leave with your chariot full but your wallet empty"
+    }
+  ],
+  "statusConditions": [
+    [
+      {
+        "id": "sleep-deprived",
+        "name": "Sleep Deprived",
+        "stat": "SPD",
+        "range": [
+          -10,
+          -5
+        ]
+      },
+      {
+        "id": "well-rested",
+        "name": "Well Rested",
+        "stat": "SPD",
+        "range": [
+          5,
+          10
+        ]
+      }
+    ],
+    [
+      {
+        "id": "caffeine-rush",
+        "name": "Caffeine Rush",
+        "stat": "SPD",
+        "range": [
+          5,
+          10
+        ]
+      },
+      {
+        "id": "caffeine-crash",
+        "name": "Caffeine Crash",
+        "stat": "SPD",
+        "range": [
+          -10,
+          -5
+        ]
+      }
+    ],
+    [
+      {
+        "id": "sugar-rush",
+        "name": "Sugar Rush",
+        "stat": "SPD",
+        "range": [
+          5,
+          10
+        ]
+      },
+      {
+        "id": "sugar-crash",
+        "name": "Sugar Crash",
+        "stat": "SPD",
+        "range": [
+          -10,
+          -5
+        ]
+      }
+    ],
+    [
+      {
+        "id": "doomscroller",
+        "name": "Doomscroller",
+        "stat": "INT",
+        "range": [
+          -10,
+          -5
+        ]
+      }
+    ],
+    [
+      {
+        "id": "locked-in",
+        "name": "Locked In",
+        "stat": "INT",
+        "range": [
+          10,
+          20
+        ]
+      },
+      {
+        "id": "brain-fog",
+        "name": "Brain Fog",
+        "stat": "INT",
+        "range": [
+          -10,
+          -5
+        ]
+      }
+    ],
+    [
+      {
+        "id": "overthinking",
+        "name": "Overthinking",
+        "stat": "WIS",
+        "range": [
+          -10,
+          -5
+        ]
+      },
+      {
+        "id": "clear-headed",
+        "name": "Clear-Headed",
+        "stat": "WIS",
+        "range": [
+          5,
+          10
+        ]
+      }
+    ],
+    [
+      {
+        "id": "distracted",
+        "name": "Distracted",
+        "stat": "WIS",
+        "range": [
+          -10,
+          -5
+        ]
+      },
+      {
+        "id": "mindful",
+        "name": "Mindful",
+        "stat": "WIS",
+        "range": [
+          5,
+          10
+        ]
+      }
+    ],
+    [
+      {
+        "id": "hungry",
+        "name": "Hungry",
+        "stat": "STA",
+        "range": [
+          -10,
+          -5
+        ]
+      },
+      {
+        "id": "well-fed",
+        "name": "Well Fed",
+        "stat": "STA",
+        "range": [
+          5,
+          10
+        ]
+      }
+    ],
+    [
+      {
+        "id": "dehydrated",
+        "name": "Dehydrated",
+        "stat": "STA",
+        "range": [
+          -10,
+          -5
+        ]
+      },
+      {
+        "id": "hydrated",
+        "name": "Hydrated",
+        "stat": "STA",
+        "range": [
+          5,
+          10
+        ]
+      }
+    ],
+    [
+      {
+        "id": "gym-bro",
+        "name": "Gym Bro",
+        "stat": "STR",
+        "range": [
+          5,
+          10
+        ]
+      },
+      {
+        "id": "couch-potato",
+        "name": "Couch Potato",
+        "stat": "STR",
+        "range": [
+          -10,
+          -5
+        ]
+      }
+    ],
+    [
+      {
+        "id": "freshly-showered",
+        "name": "Freshly Showered",
+        "stat": "CHA",
+        "range": [
+          5,
+          10
+        ]
+      },
+      {
+        "id": "unshowered",
+        "name": "Unshowered",
+        "stat": "CHA",
+        "range": [
+          -10,
+          -5
+        ]
+      }
+    ],
+    [
+      {
+        "id": "good-hair-day",
+        "name": "Good Hair Day",
+        "stat": "CHA",
+        "range": [
+          5,
+          10
+        ]
+      },
+      {
+        "id": "bad-hair-day",
+        "name": "Bad Hair Day",
+        "stat": "CHA",
+        "range": [
+          -10,
+          -5
+        ]
+      }
+    ],
+    [
+      {
+        "id": "extrovert-mode",
+        "name": "Extrovert",
+        "stat": "CHA",
+        "range": [
+          5,
+          10
+        ]
+      },
+      {
+        "id": "socially-awkward",
+        "name": "Socially Awkward",
+        "stat": "CHA",
+        "range": [
+          -10,
+          -5
+        ]
+      }
+    ],
+    [
+      {
+        "id": "main-character-energy",
+        "name": "Main Character Energy",
+        "stat": "CHA",
+        "range": [
+          10,
+          20
+        ]
+      },
+      {
+        "id": "imposter-syndrome",
+        "name": "Imposter Syndrome",
+        "stat": "CHA",
+        "range": [
+          -10,
+          -5
+        ]
+      }
+    ],
+    [
+      {
+        "id": "deadline-panic",
+        "name": "Deadline Panic",
+        "stat": "SPD",
+        "range": [
+          5,
+          10
+        ]
+      },
+      {
+        "id": "last-minute-genius",
+        "name": "Last-Minute Genius",
+        "stat": "INT",
+        "range": [
+          5,
+          10
+        ]
+      }
+    ],
+    [
+      {
+        "id": "butterfingers",
+        "name": "Butterfingers",
+        "stat": "DEX",
+        "range": [
+          -10,
+          -5
+        ]
+      },
+      {
+        "id": "steady-handed",
+        "name": "Steady-handed",
+        "stat": "STR",
+        "range": [
+          5,
+          10
+        ]
+      }
+    ],
+    [
+      {
+        "id": "lucky-day",
+        "name": "Lucky Day",
+        "stat": "LCK",
+        "range": [
+          10,
+          20
+        ]
+      },
+      {
+        "id": "unlucky-day",
+        "name": "Unlucky Day",
+        "stat": "LCK",
+        "range": [
+          -10,
+          -5
+        ]
+      }
+    ],
+    [
+      {
+        "id": "adhd",
+        "name": "ADHD",
+        "stat": "WIS",
+        "range": [
+          -10,
+          -5
+        ]
+      },
+      {
+        "id": "self-disciplined",
+        "name": "Self-disciplined",
+        "stat": "WIS",
+        "range": [
+          5,
+          10
+        ]
+      }
+    ],
+    [
+      {
+        "id": "social-anxiety",
+        "name": "Social Anxiety",
+        "stat": "CHA",
+        "range": [
+          -10,
+          -5
+        ]
+      },
+      {
+        "id": "confidence-boots",
+        "name": "Confidence Boost",
+        "stat": "CHA",
+        "range": [
+          5,
+          10
+        ]
+      }
+    ]
+  ],
+  "inventoryItems": [
+    {
+      "id": "coins",
+      "name": "Coins",
+      "range": {
+        "min": -9999,
+        "max": 9999
+      }
+    },
+    {
+      "id": "empty-wallet",
+      "name": "Empty Wallet",
+      "range": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    {
+      "id": "depleted-mana-powerbank",
+      "name": "Depleted Manabank",
+      "range": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    {
+      "id": "crumpled-receipt",
+      "name": "Crumpled Receipt",
+      "range": {
+        "min": 12,
+        "max": 24
+      }
+    },
+    {
+      "id": "expired-gym-guild-membership",
+      "name": "Expired Gym Guild Membership",
+      "range": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    {
+      "id": "damaged-usb-cable",
+      "name": "Damaged USB Cable",
+      "range": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    {
+      "id": "unread-textbook",
+      "name": "Unread Textbook",
+      "range": {
+        "min": 1,
+        "max": 3
+      }
+    },
+    {
+      "id": "browser-tabs",
+      "name": "Browser Tabs",
+      "range": {
+        "min": 20,
+        "max": 80
+      }
+    },
+    {
+      "id": "energy-potion",
+      "name": "Energy Potion",
+      "range": {
+        "min": 1,
+        "max": 8
+      }
+    },
+    {
+      "id": "goggles-of-misreading",
+      "name": "Goggles of Misreading",
+      "range": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    {
+      "id": "boots-of-the-untied-lace",
+      "name": "Boots of the Untied Lace",
+      "range": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    {
+      "id": "inside-out-garb",
+      "name": "Inside-Out Garb",
+      "range": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    {
+      "id": "hoodie-of-hiding",
+      "name": "Hoodie of Hiding",
+      "range": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    {
+      "id": "mismatched-sock",
+      "name": "Mismatched Sock",
+      "range": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    {
+      "id": "crumbs",
+      "name": "Crumbs",
+      "range": {
+        "min": 5,
+        "max": 20
+      }
+    },
+    {
+      "id": "expired-parking-token",
+      "name": "Expired Parking Token",
+      "range": {
+        "min": 1,
+        "max": 6
+      }
+    },
+    {
+      "id": "sunglasses-of-regret",
+      "name": "Sunglasses of Regret",
+      "range": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    {
+      "id": "backpack-of-burden",
+      "name": "Backpack of Burden",
+      "range": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    {
+      "id": "receipt-scroll",
+      "name": "Receipt Scroll",
+      "range": {
+        "min": 3,
+        "max": 15
+      }
+    },
+    {
+      "id": "limping-flip-flop",
+      "name": "Limping Flip-Flop",
+      "range": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    {
+      "id": "questionable-leftovers",
+      "name": "Questionable Leftovers",
+      "range": {
+        "min": 1,
+        "max": 3
+      }
+    },
+    {
+      "id": "ironed-tunic",
+      "name": "Perfectly Ironed Tunic",
+      "range": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    {
+      "id": "full-mana-powerbank",
+      "name": "Fully Charged Manabank",
+      "range": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    {
+      "id": "sunglasses-of-confidence",
+      "name": "Sunglasses of Confidence",
+      "range": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    {
+      "id": "backpack-of-preparedness",
+      "name": "Backpack of Preparedness",
+      "range": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    {
+      "id": "gourmet-leftovers",
+      "name": "Gourmet Leftovers",
+      "range": {
+        "min": 1,
+        "max": 3
+      }
+    },
+    {
+      "id": "voodoo-doll",
+      "name": "Voodoo Doll",
+      "range": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    {
+      "id": "tome-of-isekai",
+      "name": "Tome of Isekai",
+      "range": {
+        "min": 1,
+        "max": 1
+      }
+    }
+  ]
+}

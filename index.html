@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daily Stats</title>
+     <script type="importmap">
+        {
+            "imports": {
+                "alpinejs": "https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/module.esm.js",
+                "chance": "https://cdn.jsdelivr.net/npm/chance@1.1.11/+esm"
+            }
+        }
+    </script>
+     <script type="module" src="js/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main class="sheet" :class="`sheet--${mode}`" x-data="stats">
+
+        <div class="loader" x-show="loading">
+            <h3 x-text="loadingMessage">Loading...</h3>
+        </div>
+
+        <div class="sheet__frame" x-show="!loading">
+            <h1 class="sheet__title" x-text="title"></h1>
+
+            <section class="identity">
+                <h2 class="identity__main">
+                    <span class="identity__name" x-text="name"></span><span class="identity__level" x-text="level"></span>
+                </h2>
+                <h3 class="identity__class" x-text="className">
+                </h3>
+            </section>
+
+            <section class="stats">
+                <div class="stat">
+                    <div class="stat__name">HP</div>
+                    <div class="stat__meter">
+                        <progress :value="hp" max="5"></progress>
+                        <span class="stat__meter-divider"></span>
+                        <span class="stat__meter-divider"></span>
+                        <span class="stat__meter-divider"></span>
+                        <span class="stat__meter-divider"></span>
+                    </div>
+                    <div class="stat__value" x-text="`${hp}/5`"></div>
+                </div>
+                <div class="stat">
+                    <div class="stat__name">STA</div>
+                    <div class="stat__meter">
+                        <progress :value="sta" max="5"></progress>
+                        <span class="stat__meter-divider"></span>
+                        <span class="stat__meter-divider"></span>
+                        <span class="stat__meter-divider"></span>
+                        <span class="stat__meter-divider"></span>
+                    </div>
+                    <div class="stat__value" x-text="`${sta}/5`"></div>
+                </div>
+                <div class="stat">
+                    <div class="stat__name">LUK</div>
+                    <div class="stat__meter">
+                        <progress :value="lck" max="5"></progress>
+                        <span class="stat__meter-divider"></span>
+                        <span class="stat__meter-divider"></span>
+                        <span class="stat__meter-divider"></span>
+                        <span class="stat__meter-divider"></span>
+                    </div>
+                    <div class="stat__value" x-text="`${lck}/5`"></div>
+                </div>
+            </section>
+
+            <h3 class="section-label">
+                <span></span>Active Quest<span></span>
+            </h3>
+
+            <section class="quest">
+                <h4 class="quest__title" x-text="quest?.title"></h4>
+                <p class="quest__description" x-text="quest?.description">
+                </p>
+            </section>
+
+            <h3 class="section-label">
+                <span></span>Conditions<span></span>
+            </h3>
+
+            <section class="conditions">
+                <ul class="data-list">
+                    <template x-for="condition in statusConditions" :key="condition.id">
+                        <li class="data-list__item">
+                            <div class="data-list__label" x-text="condition.name"></div>
+                            <div class="data-list__value" x-text="`${condition.value > 0 ? '+' : ''}${condition.value} ${condition.stat}`"></div>
+                        </li>
+                    </template>
+                </ul>
+            </section>
+
+            <h3 class="section-label">
+                <span></span>Inventory<span></span>
+            </h3>
+
+            <section class="inventory">
+                <ul class="data-list">
+                    <template x-for="item in items" :key="item.id">
+                        <li class="data-list__item">
+                            <div class="data-list__label" x-text="item.name"></div>
+                            <div class="data-list__value" x-text="item.value"></div>
+                        </li>
+                    </template>
+                </ul>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>
